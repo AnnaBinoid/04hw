@@ -36,5 +36,6 @@ class BookServiceTest {
         assertEquals(1, result.size());
         assertEquals("Test Book", result.get(0).getTitle());
         assertEquals("Test Author", result.get(0).getAuthor());
+
     }
 }
